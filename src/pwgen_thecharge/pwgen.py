@@ -93,11 +93,3 @@ def pwgen(
     if True == b64:  # noqa
         result = b64encode(result.encode("utf-8")).decode("utf-8")
     return result
-
-
-# print(pwgen(20, True, True, False, True))
-
-
-# for cli tool
-# should do it with bitmask like pwgen 20 0110 or +C +S +D +X
-# if __name__ == '__main__':

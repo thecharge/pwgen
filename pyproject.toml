@@ -1,0 +1,19 @@
+[project]
+name = "pwgen_thecharge"
+version = "0.0.1"
+authors = [
+  { name="Radoslav Sandov", email="thecharge@gmail.com" },
+]
+description = "A simple pasword generator"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/thecharge/pwgen"
+"Bug Tracker" = "https://github.com/thecharge/pwgen/issues"

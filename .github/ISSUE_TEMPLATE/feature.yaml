@@ -1,0 +1,19 @@
+name: Feature
+description: Provide supporting details for a feature in development
+labels: kind/feature
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like to be added or you are addint (if you have created something on fork, please point ot the fork and code change)?
+      description: |
+        Feature requests with enough interest will be considered for addition in the library
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: What is the feature and why is needed?
+    validations:
+      required: true
